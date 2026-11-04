@@ -57,7 +57,7 @@ env:
 jobs:
     build:
         name: Build RyukGram from Release
-        runs-on: macos-15-intel
+        runs-on: macos-latest
         permissions:
             contents: read
 
